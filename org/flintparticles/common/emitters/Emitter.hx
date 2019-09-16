@@ -30,6 +30,7 @@
 
 package org.flintparticles.common.emitters;
 
+import openfl.display.DisplayObjectContainer;
 import jota.utils.ArrayUtils;
 import flash.events.EventDispatcher;
 import flash.Vector;
@@ -944,7 +945,7 @@ class Emitter extends EventDispatcher
 	
 	public function removeParticleProxy ( e:EmitterEvent ) : Void
 	{
-		e.target.removeEventListener( EmitterEvent.EMITTER_UPDATED, removeParticleProxy );
+		cast(e.target, DisplayObjectContainer).removeEventListener( EmitterEvent.EMITTER_UPDATED, removeParticleProxy );
 		removeParticle( e.target );
 	}
 	

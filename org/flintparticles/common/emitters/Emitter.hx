@@ -347,6 +347,21 @@ class Emitter extends EventDispatcher
 	}
 	
 	/**
+	* Removes all Initializers from the Emitter.
+	*
+	* @see removeInitializer()
+	*/
+	public function removeAllInitializers():Void
+	{
+		var initializer:Initializer;
+		while ( _initializers.length > 0 ) 
+		{
+			initializer = _initializers.pop();
+			initializer.removedFromEmitter( this );
+		}
+	}
+		
+	/**
 	 * Detects if the emitter is using a particular initializer or not.
 	 * 
 	 * @param initializer The initializer to look for.

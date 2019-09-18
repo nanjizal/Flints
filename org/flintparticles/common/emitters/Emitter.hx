@@ -32,8 +32,8 @@ package org.flintparticles.common.emitters;
 
 import openfl.display.DisplayObjectContainer;
 import jota.utils.ArrayUtils;
-import flash.events.EventDispatcher;
-import flash.Vector;
+import openfl.events.EventDispatcher;
+import openfl.Vector;
 import org.flintparticles.common.behaviours.Behaviour;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.utils.FrameUpdater;

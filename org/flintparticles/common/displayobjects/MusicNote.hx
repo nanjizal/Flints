@@ -2,7 +2,7 @@
  created by Jordan Leary to extend flint display objects
  */
 
-package org.flintparticles.common.displayObjects;
+package org.flintparticles.common.displayobjects;
 
 import openfl.display.Shape;
 

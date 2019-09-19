@@ -2,7 +2,7 @@
 	Created by Jordan Leary to extend flint display objects
  */
 
-package org.flintparticles.common.displayObjects;
+package org.flintparticles.common.displayobjects;
 
 import flash.display.Shape;
 

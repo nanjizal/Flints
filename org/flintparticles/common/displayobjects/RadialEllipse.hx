@@ -1,4 +1,4 @@
-package org.flintparticles.common.displayObjects;
+package org.flintparticles.common.displayobjects;
 
 import openfl.display.GradientType;
 import openfl.display.Shape;

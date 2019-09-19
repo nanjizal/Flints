@@ -30,23 +30,22 @@
 
 package org.flintparticles.common.emitters;
 
-import openfl.display.DisplayObjectContainer;
 import jota.utils.ArrayUtils;
+import openfl.display.DisplayObjectContainer;
 import openfl.events.EventDispatcher;
-import openfl.Vector;
-import org.flintparticles.common.behaviours.Behaviour;
-import org.flintparticles.common.particles.Particle;
-import org.flintparticles.common.utils.FrameUpdater;
-import org.flintparticles.common.events.UpdateEvent;
-import org.flintparticles.common.counters.ZeroCounter;
-import org.flintparticles.common.counters.Counter;
-import org.flintparticles.common.activities.Activity;
 import org.flintparticles.common.actions.Action;
-import org.flintparticles.common.initializers.Initializer;
-import org.flintparticles.common.particles.ParticleFactory;
+import org.flintparticles.common.activities.Activity;
+import org.flintparticles.common.behaviours.Behaviour;
+import org.flintparticles.common.counters.Counter;
+import org.flintparticles.common.counters.ZeroCounter;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.events.EmitterEvent;
 import org.flintparticles.common.events.ParticleEvent;
+import org.flintparticles.common.events.UpdateEvent;
+import org.flintparticles.common.initializers.Initializer;
+import org.flintparticles.common.particles.Particle;
+import org.flintparticles.common.particles.ParticleFactory;
+import org.flintparticles.common.utils.FrameUpdater;
 
 /**
  * Dispatched when a particle dies and is about to be removed from the system.
@@ -132,16 +131,16 @@ import org.flintparticles.common.events.ParticleEvent;
  */
 class Emitter extends EventDispatcher {
 	public var maximumFrameTime(get, set):Float;
-	public var actions(get, set):Vector<Action>;
-	public var particles(get, set):Vector<Particle>;
+	public var actions(get, set):Array<Action>;
+	public var particles(get, set):Array<Particle>;
 	public var running(get, never):Bool;
-	public var activities(get, set):Vector<Activity>;
+	public var activities(get, set):Array<Activity>;
 	public var particleFactory(get, set):ParticleFactory;
 	public var useInternalTick(get, set):Bool;
 	public var fixedFrameTime(get, set):Float;
 	public var counter(get, set):Counter;
 	public var particlesArray(get, never):Array<Dynamic>;
-	public var initializers(get, set):Vector<Initializer>;
+	public var initializers(get, set):Array<Initializer>;
 
 	/**
 	 * @private
@@ -151,22 +150,22 @@ class Emitter extends EventDispatcher {
 	/**
 	 * @private
 	 */
-	private var _initializers:Vector<Initializer>;
+	private var _initializers:Array<Initializer>;
 
 	/**
 	 * @private
 	 */
-	private var _actions:Vector<Action>;
+	private var _actions:Array<Action>;
 
 	/**
 	 * @private
 	 */
-	private var _activities:Vector<Activity>;
+	private var _activities:Array<Activity>;
 
 	/**
 	 * @private
 	 */
-	private var _particles:Array<Dynamic>;
+	private var _particles:Array<Particle>;
 
 	/**
 	 * @private
@@ -226,9 +225,9 @@ class Emitter extends EventDispatcher {
 	public function new() {
 		super();
 		_particles = [];
-		_actions = new Vector<Action>();
-		_initializers = new Vector<Initializer>();
-		_activities = new Vector<Activity>();
+		_actions = [];
+		_initializers = [];
+		_activities = [];
 		_counter = new ZeroCounter();
 		_useInternalTick = true;
 		_fixedFrameTime = 0;
@@ -267,11 +266,11 @@ class Emitter extends EventDispatcher {
 	/**
 	 * The array of all initializers being used by this emitter.
 	 */
-	private function get_initializers():Vector<Initializer> {
+	private function get_initializers():Array<Initializer> {
 		return _initializers;
 	}
 
-	private function set_initializers(value:Vector<Initializer>):Vector<Initializer> {
+	private function set_initializers(value:Array<Initializer>):Array<Initializer> {
 		var initializer:Initializer;
 		for (initializer in _initializers) {
 			initializer.removedFromEmitter(this);
@@ -406,11 +405,11 @@ class Emitter extends EventDispatcher {
 	/**
 	 * The array of all actions being used by this emitter.
 	 */
-	private function get_actions():Vector<Action> {
+	private function get_actions():Array<Action> {
 		return _actions;
 	}
 
-	private function set_actions(value:Vector<Action>):Vector<Action> {
+	private function set_actions(value:Array<Action>):Array<Action> {
 		var action:Action;
 		for (action in _actions) {
 			action.removedFromEmitter(this);
@@ -530,11 +529,11 @@ class Emitter extends EventDispatcher {
 	/**
 	 * The array of all actions being used by this emitter.
 	 */
-	private function get_activities():Vector<Activity> {
+	private function get_activities():Array<Activity> {
 		return _activities;
 	}
 
-	private function set_activities(value:Vector<Activity>):Vector<Activity> {
+	private function set_activities(value:Array<Activity>):Array<Activity> {
 		var activity:Activity;
 		for (activity in _activities) {
 			activity.removedFromEmitter(this);
@@ -751,19 +750,11 @@ class Emitter extends EventDispatcher {
 	/**
 	 * The collection of all particles being managed by this emitter.
 	 */
-	//public function Get_particles():Vector<Particle>
-	//{
-	//return cast(_particles, Vector);
-	//}
-
-	/**
-	 * TODO: check if this retrieves correct vector
-	 */
 	private function get_particles():Dynamic {
-		return cast(_particles, Vector<Dynamic>);
+		return _particles;
 	}
 
-	private function set_particles(value:Vector<Particle>):Dynamic {
+	private function set_particles(value:Array<Particle>):Array<Particle> {
 		killAllParticles();
 		addParticles(value, false);
 		return _particles;
@@ -776,7 +767,7 @@ class Emitter extends EventDispatcher {
 	 *
 	 * @see #particles
 	 */
-	private function get_particlesArray():Array<Dynamic> {
+	private function get_particlesArray():Array<Particle> {
 		return _particles;
 	}
 
@@ -844,7 +835,7 @@ class Emitter extends EventDispatcher {
 	 *
 	 * @see #removeParticles()
 	 */
-	public function addParticles(particles:Vector<Particle>, applyInitializers:Bool = false):Void {
+	public function addParticles(particles:Array<Particle>, applyInitializers:Bool = false):Void {
 		var len:Int = particles.length;
 		var i:Int;
 		if (applyInitializers) {
@@ -912,7 +903,7 @@ class Emitter extends EventDispatcher {
 	 *
 	 * @param particles The particles to remove.
 	 */
-	public function removeParticles(particles:Vector<Particle>):Void {
+	public function removeParticles(particles:Array<Particle>):Void {
 		if (_updating) {
 			/**
 			 * TODO: remove particle and event listener
@@ -955,8 +946,7 @@ class Emitter extends EventDispatcher {
 				_particleFactory.disposeParticle(_particles[i]);
 			}
 		}
-		//_particles.length = 0;
-		_particles = new Array();
+		_particles = [];
 	}
 
 	/**

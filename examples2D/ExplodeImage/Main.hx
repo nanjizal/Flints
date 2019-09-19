@@ -35,10 +35,10 @@ import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.particles.Particle2DUtils;
 import org.flintparticles.twod.renderers.DisplayObjectRenderer;
 import org.flintparticles.twod.zones.RectangleZone;
-import flash.display.BitmapData;
-import flash.display.Sprite;
-import flash.events.MouseEvent;
-import flash.geom.Point;
+import openfl.display.BitmapData;
+import openfl.display.Sprite;
+import openfl.events.MouseEvent;
+import openfl.geom.Point;
 
 @:meta(SWF(width="500",height="350",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

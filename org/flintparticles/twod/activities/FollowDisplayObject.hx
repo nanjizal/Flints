@@ -30,8 +30,8 @@
 
 package org.flintparticles.twod.activities;
 
-import flash.display.DisplayObject;
-import flash.geom.Point;
+import openfl.display.DisplayObject;
+import openfl.geom.Point;
 import org.flintparticles.common.activities.ActivityBase;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.utils.DisplayObjectUtils;

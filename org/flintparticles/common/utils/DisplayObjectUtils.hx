@@ -29,7 +29,7 @@
 
 package org.flintparticles.common.utils;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 import org.flintparticles.common.utils.DisplayObjectUtils;
 
 /**

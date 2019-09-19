@@ -30,10 +30,10 @@
 
 package org.flintparticles.threed.zones;
 
-import flash.display.BitmapData;
-import flash.geom.Matrix3D;
-import flash.geom.Point;
-import flash.geom.Vector3D;
+import openfl.display.BitmapData;
+import openfl.geom.Matrix3D;
+import openfl.geom.Point;
+import openfl.geom.Vector3D;
 import org.flintparticles.common.utils.FastWeightedArray;
 import org.flintparticles.threed.geom.Matrix3DUtils;
 import org.flintparticles.threed.geom.Vector3DUtils;

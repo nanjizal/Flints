@@ -30,7 +30,7 @@
 
 package org.flintparticles.common.initializers;
 
-import flash.errors.Error;
+import openfl.errors.Error;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.events.ParticleEvent;
 import org.flintparticles.common.emitters.Emitter;

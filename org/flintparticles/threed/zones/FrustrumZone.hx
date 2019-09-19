@@ -30,9 +30,9 @@
 
 package org.flintparticles.threed.zones;
 
-import flash.geom.Matrix3D;
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
+import openfl.geom.Matrix3D;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
 import org.flintparticles.threed.renderers.Camera;
 
 /**

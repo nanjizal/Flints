@@ -28,12 +28,12 @@
  */
 import org.flintparticles.common.events.EmitterEvent;
 import org.flintparticles.twod.renderers.BitmapRenderer;
-import flash.display.Sprite;
-import flash.events.Event;
-import flash.events.MouseEvent;
-import flash.geom.Rectangle;
-import flash.text.TextField;
-import flash.text.TextFormat;
+import openfl.display.Sprite;
+import openfl.events.Event;
+import openfl.events.MouseEvent;
+import openfl.geom.Rectangle;
+import openfl.text.TextField;
+import openfl.text.TextFormat;
 
 @:meta(SWF(width="480",height="425",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

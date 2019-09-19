@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.particles;
 
-import flash.geom.Matrix;
+import openfl.geom.Matrix;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.particles.ParticleFactory;
 

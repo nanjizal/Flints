@@ -41,7 +41,7 @@ import org.flintparticles.twod.initializers.Position;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.BitmapDataZone;
 import org.flintparticles.twod.zones.DiscZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class LogoFirework extends Emitter2D
 {

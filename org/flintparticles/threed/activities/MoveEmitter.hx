@@ -30,7 +30,7 @@
 
 package org.flintparticles.threed.activities;
 
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 import org.flintparticles.common.activities.ActivityBase;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.threed.emitters.Emitter3D;

@@ -42,8 +42,8 @@ import org.flintparticles.twod.initializers.Position;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.DiscZone;
 import org.flintparticles.twod.zones.RectangleZone;
-import flash.display.DisplayObject;
-import flash.geom.Point;
+import openfl.display.DisplayObject;
+import openfl.geom.Point;
 
 class BrownianMotion extends Emitter2D
 {

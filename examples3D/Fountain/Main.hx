@@ -29,11 +29,11 @@
 import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.renderers.PixelRenderer;
 import org.flintparticles.threed.renderers.controllers.OrbitCamera;
-import flash.display.Sprite;
-import flash.filters.BlurFilter;
-import flash.filters.ColorMatrixFilter;
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
+import openfl.display.Sprite;
+import openfl.filters.BlurFilter;
+import openfl.filters.ColorMatrixFilter;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
 
 @:meta(SWF(width="500",height="500",frameRate="61",backgroundColor="#000000"))
 class Main extends Sprite

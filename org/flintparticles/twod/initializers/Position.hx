@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.initializers;
 
-import flash.geom.Point;
+import openfl.geom.Point;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.initializers.InitializerBase;
 import org.flintparticles.twod.particles.Particle2D;

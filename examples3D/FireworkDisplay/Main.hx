@@ -34,11 +34,11 @@ import org.flintparticles.threed.particles.Particle3D;
 import org.flintparticles.threed.renderers.BitmapRenderer;
 import org.flintparticles.threed.renderers.controllers.FirstPersonCamera;
 import org.flintparticles.threed.zones.LineZone;
-import flash.display.Sprite;
-import flash.filters.BlurFilter;
-import flash.filters.ColorMatrixFilter;
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
+import openfl.display.Sprite;
+import openfl.filters.BlurFilter;
+import openfl.filters.ColorMatrixFilter;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
 
 @:meta(SWF(width="800",height="600",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

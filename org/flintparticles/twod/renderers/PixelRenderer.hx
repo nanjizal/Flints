@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.renderers;
 
-import flash.geom.Rectangle;
+import openfl.geom.Rectangle;
 import org.flintparticles.twod.particles.Particle2D;
 
 /**

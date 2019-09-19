@@ -28,8 +28,8 @@
  */
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.renderers.DisplayObjectRenderer;
-import flash.display.Bitmap;
-import flash.display.Sprite;
+import openfl.display.Bitmap;
+import openfl.display.Sprite;
 
 @:meta(SWF(width="600",height="400",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

@@ -27,7 +27,7 @@
  * THE SOFTWARE.
  */
 import org.flintparticles.common.debug.Stats;
-import flash.text.TextField;
+import openfl.text.TextField;
 
 @:meta(SWF(width="400",height="400",frameRate="60",backgroundColor="#000000"))
 class MainPlus extends Main

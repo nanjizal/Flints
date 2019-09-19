@@ -29,7 +29,7 @@
 
 package org.flintparticles.common.renderers;
 
-import flash.Vector;
+import openfl.Vector;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.events.ParticleEvent;
 import org.flintparticles.common.events.EmitterEvent;

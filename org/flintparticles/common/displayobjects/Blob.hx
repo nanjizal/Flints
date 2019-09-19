@@ -4,7 +4,8 @@
 
 package org.flintparticles.common.displayobjects;
 
-import flash.display.Shape;
+import openfl.display.Shape;
+import openfl.display.BlendMode;
 
 /**
  * The Ellipse class is a DisplayObject with a oval shape. The registration point
@@ -12,6 +13,7 @@ import flash.display.Shape;
  */
 class Blob extends Shape {
 	public var radius(get, set):Float;
+
 	public var color(get, set):Int;
 
 	private var _radius:Float;
@@ -24,7 +26,7 @@ class Blob extends Shape {
 	 * @param color The color of the Blob.
 	 * @param bm The blendMode for the Blob.
 	 */
-	public function new(radius:Float = 1, color:Int = 0xFFFFFF, bm:String = "normal") {
+	public function new(radius:Float = 1, color:Int = 0xFFFFFF, bm:BlendMode = BlendMode.NORMAL) {
 		super();
 		_radius = radius;
 		_startRadius = radius;

@@ -30,10 +30,10 @@
 
 package org.flintparticles.threed.renderers;
 
-import flash.display.DisplayObject;
-import flash.geom.Matrix3D;
-import flash.geom.Vector3D;
-import flash.Vector;
+import openfl.display.DisplayObject;
+import openfl.geom.Matrix3D;
+import openfl.geom.Vector3D;
+import openfl.Vector;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.renderers.SpriteRendererBase;
 import org.flintparticles.threed.geom.Quaternion;

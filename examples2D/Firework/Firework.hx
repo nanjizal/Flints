@@ -41,7 +41,7 @@ import org.flintparticles.twod.actions.Move;
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.DiscZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class Firework extends Emitter2D
 {

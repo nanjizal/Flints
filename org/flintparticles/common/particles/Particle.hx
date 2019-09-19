@@ -31,7 +31,7 @@
 package org.flintparticles.common.particles;
 
 import jota.utils.Dictionary;
-import flash.geom.ColorTransform;
+import openfl.geom.ColorTransform;
 import org.flintparticles.common.particles.ParticleFactory;
 import org.flintparticles.common.particles.Particle;
 

@@ -30,11 +30,11 @@
 
 package org.flintparticles.common.utils;
 
-import flash.display.Sprite;
-import flash.display.Shape;
-import flash.events.Event;
-import flash.events.EventDispatcher;
-import flash.Lib;
+import openfl.display.Sprite;
+import openfl.display.Shape;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
+import openfl.Lib;
 import org.flintparticles.common.events.UpdateEvent;
 import org.flintparticles.common.utils.FrameUpdater;
 

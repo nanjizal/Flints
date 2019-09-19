@@ -30,8 +30,8 @@
 
 package org.flintparticles.common.actions;
 
-import flash.display.Stage;
-import flash.events.KeyboardEvent;
+import openfl.display.Stage;
+import openfl.events.KeyboardEvent;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.actions.Action;

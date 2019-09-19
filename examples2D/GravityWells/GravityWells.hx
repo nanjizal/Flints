@@ -33,7 +33,7 @@ import org.flintparticles.twod.actions.Move;
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.initializers.Position;
 import org.flintparticles.twod.zones.DiscZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class GravityWells extends Emitter2D
 {

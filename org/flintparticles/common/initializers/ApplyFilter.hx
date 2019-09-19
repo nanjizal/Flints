@@ -30,8 +30,8 @@
 
 package org.flintparticles.common.initializers;
 
-import flash.display.DisplayObject;
-import flash.filters.BitmapFilter;
+import openfl.display.DisplayObject;
+import openfl.filters.BitmapFilter;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.initializers.InitializerBase;

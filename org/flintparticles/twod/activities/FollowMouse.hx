@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.activities;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 import org.flintparticles.common.activities.ActivityBase;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.twod.emitters.Emitter2D;

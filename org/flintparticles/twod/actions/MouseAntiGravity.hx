@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.actions;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 
 /**
  * The MouseAntiGravity action applies a force on the particle to push it 

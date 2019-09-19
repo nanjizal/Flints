@@ -29,8 +29,8 @@
 import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.renderers.DisplayObjectRenderer;
 import org.flintparticles.threed.renderers.controllers.OrbitCamera;
-import flash.display.Sprite;
-import flash.geom.Vector3D;
+import openfl.display.Sprite;
+import openfl.geom.Vector3D;
 
 @:meta(SWF(width="400",height="400",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

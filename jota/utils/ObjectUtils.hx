@@ -1,7 +1,7 @@
 package jota.utils;
 
-import flash.display.DisplayObject;
-import flash.display.DisplayObjectContainer;
+import openfl.display.DisplayObject;
+import openfl.display.DisplayObjectContainer;
 
 class ObjectUtils
 {

@@ -30,8 +30,8 @@
 
 package org.flintparticles.twod.zones;
 
-import flash.errors.Error;
-import flash.geom.Point;
+import openfl.errors.Error;
+import openfl.geom.Point;
 import org.flintparticles.twod.particles.Particle2D;
 
 /**

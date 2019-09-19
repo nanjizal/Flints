@@ -42,7 +42,7 @@ import org.flintparticles.threed.initializers.Position;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.PointZone;
 import org.flintparticles.threed.zones.SphereZone;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class SphereBang extends Emitter3D
 {

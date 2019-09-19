@@ -30,9 +30,9 @@
 
 package org.flintparticles.twod.zones;
 
-import flash.display.DisplayObject;
-import flash.geom.Point;
-import flash.geom.Rectangle;
+import openfl.display.DisplayObject;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 import org.flintparticles.twod.particles.Particle2D;
 
 /**

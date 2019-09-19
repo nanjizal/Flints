@@ -40,7 +40,7 @@ import org.flintparticles.twod.initializers.Position;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.DiscZone;
 import org.flintparticles.twod.zones.RectangleZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class Flock extends Emitter2D
 {

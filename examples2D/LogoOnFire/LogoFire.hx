@@ -42,8 +42,8 @@ import org.flintparticles.twod.initializers.Position;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.BitmapDataZone;
 import org.flintparticles.twod.zones.DiscSectorZone;
-import flash.display.BitmapData;
-import flash.geom.Point;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
 
 class LogoFire extends Emitter2D
 {

@@ -30,8 +30,8 @@
 
 package org.flintparticles.common.displayobjects;
 
-import flash.display.Shape;
-import flash.display.BlendMode;
+import openfl.display.Shape;
+import openfl.display.BlendMode;
 
 /**
  * The Dot class is a DisplayObject with a circle shape. The registration point

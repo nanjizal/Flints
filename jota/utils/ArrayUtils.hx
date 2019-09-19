@@ -3,7 +3,7 @@ package jota.utils;
     import haxe.ds.ObjectMap;
 	import jota.utils.MathUtils;
 	import jota.utils.ArrayUtils;
-	import flash.Vector;
+	import openfl.Vector;
 
 	class ArrayUtils
 	{

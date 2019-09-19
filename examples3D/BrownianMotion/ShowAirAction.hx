@@ -30,9 +30,9 @@
 import org.flintparticles.common.actions.ActionBase;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.particles.Particle;
-import flash.display.DisplayObject;
-import flash.events.KeyboardEvent;
-import flash.ui.Keyboard;
+import openfl.display.DisplayObject;
+import openfl.events.KeyboardEvent;
+import openfl.ui.Keyboard;
 
 /**
  * The KeyDownAction Action uses another action. It applies the other action

@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.renderers;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 import org.flintparticles.common.renderers.SpriteRendererBase;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.twod.particles.Particle2D;

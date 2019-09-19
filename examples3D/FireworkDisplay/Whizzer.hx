@@ -41,7 +41,7 @@ import org.flintparticles.threed.initializers.Position;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.ConeZone;
 import org.flintparticles.threed.zones.Zone3D;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class Whizzer extends Emitter3D
 {

@@ -40,7 +40,7 @@ import org.flintparticles.threed.initializers.Position;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.BoxZone;
 import org.flintparticles.threed.zones.SphereZone;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class Flock extends Emitter3D
 {

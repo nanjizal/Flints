@@ -39,7 +39,7 @@ import org.flintparticles.threed.initializers.Position;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.DiscZone;
 import org.flintparticles.threed.zones.PointZone;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class Candle extends Emitter3D
 {

@@ -39,7 +39,7 @@ import org.flintparticles.threed.actions.RandomDrift;
 import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.ConeZone;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class Smoke extends Emitter3D
 {

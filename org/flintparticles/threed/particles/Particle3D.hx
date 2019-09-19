@@ -30,7 +30,7 @@
 
 package org.flintparticles.threed.particles;
 
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.particles.ParticleFactory;
 import org.flintparticles.threed.geom.Quaternion;

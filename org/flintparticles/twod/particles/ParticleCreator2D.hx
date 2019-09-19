@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.particles;
 
-import flash.Vector;
+import openfl.Vector;
 import org.flintparticles.common.debug.ParticleFactoryStats;
 import org.flintparticles.common.particles.ParticleFactory;
 import org.flintparticles.common.particles.Particle;

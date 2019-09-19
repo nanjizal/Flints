@@ -27,9 +27,9 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import flash.display.DisplayObject;
-import flash.events.KeyboardEvent;
-import flash.ui.Keyboard;
+import openfl.display.DisplayObject;
+import openfl.events.KeyboardEvent;
+import openfl.ui.Keyboard;
 import org.flintparticles.common.actions.ActionBase;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.particles.Particle;

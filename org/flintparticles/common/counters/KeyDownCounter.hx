@@ -30,8 +30,8 @@
 
 package org.flintparticles.common.counters;
 
-import flash.display.Stage;
-import flash.events.KeyboardEvent;
+import openfl.display.Stage;
+import openfl.events.KeyboardEvent;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.counters.KeyDownCounter;
 import org.flintparticles.common.counters.Counter;

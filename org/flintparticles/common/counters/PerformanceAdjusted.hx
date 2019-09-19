@@ -30,8 +30,8 @@
 
 package org.flintparticles.common.counters;
 
-import flash.Lib;
-import flash.Vector;
+import openfl.Lib;
+import openfl.Vector;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.counters.PerformanceAdjusted;

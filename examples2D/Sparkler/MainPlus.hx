@@ -27,10 +27,10 @@
  * THE SOFTWARE.
  */
 import org.flintparticles.common.debug.Stats;
-import flash.text.TextField;
-import flash.text.TextFieldAutoSize;
-import flash.events.Event;
-import flash.Lib;
+import openfl.text.TextField;
+import openfl.text.TextFieldAutoSize;
+import openfl.events.Event;
+import openfl.Lib;
 
 @:meta(SWF(width="400",height="400",frameRate="60",backgroundColor="#000000"))
 class MainPlus extends Main

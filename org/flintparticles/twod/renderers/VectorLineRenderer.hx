@@ -30,7 +30,7 @@
 
 package org.flintparticles.twod.renderers;
 
-import flash.events.Event;
+import openfl.events.Event;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.events.EmitterEvent;
 import org.flintparticles.common.renderers.SpriteRendererBase;

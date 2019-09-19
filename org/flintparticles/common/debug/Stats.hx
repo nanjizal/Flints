@@ -1,11 +1,11 @@
 package org.flintparticles.common.debug;
 
-import flash.Lib;
-import flash.events.Event;
-import flash.system.System;
-import flash.text.TextField;
-import flash.text.TextFieldAutoSize;
-import flash.text.TextFormat;
+import openfl.Lib;
+import openfl.events.Event;
+import openfl.system.System;
+import openfl.text.TextField;
+import openfl.text.TextFieldAutoSize;
+import openfl.text.TextFormat;
 import org.flintparticles.common.debug.ParticleFactoryStats;
 import org.flintparticles.common.debug.Stats;
 

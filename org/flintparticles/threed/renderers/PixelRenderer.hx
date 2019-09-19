@@ -30,8 +30,8 @@
 
 package org.flintparticles.threed.renderers;
 
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
 import org.flintparticles.threed.particles.Particle3D;
 
 /**

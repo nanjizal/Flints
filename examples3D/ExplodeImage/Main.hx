@@ -35,12 +35,12 @@ import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.particles.Particle3DUtils;
 import org.flintparticles.threed.renderers.DisplayObjectRenderer;
 import org.flintparticles.threed.zones.FrustrumZone;
-import flash.display.BitmapData;
-import flash.display.Sprite;
-import flash.events.MouseEvent;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
+import openfl.display.BitmapData;
+import openfl.display.Sprite;
+import openfl.events.MouseEvent;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
 
 @:meta(SWF(width="500",height="350",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

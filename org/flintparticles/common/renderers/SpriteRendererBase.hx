@@ -29,9 +29,9 @@
 
 package org.flintparticles.common.renderers;
 
-import flash.display.Sprite;
-import flash.events.Event;
-import flash.Vector;
+import openfl.display.Sprite;
+import openfl.events.Event;
+import openfl.Vector;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.events.ParticleEvent;
 import org.flintparticles.common.events.EmitterEvent;

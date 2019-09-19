@@ -30,10 +30,10 @@
 
 package org.flintparticles.common.displayobjects;
 
-import flash.display.GradientType;
-import flash.display.Shape;
-import flash.geom.Matrix;
-import flash.display.BlendMode;
+import openfl.display.GradientType;
+import openfl.display.Shape;
+import openfl.geom.Matrix;
+import openfl.display.BlendMode;
 
 /**
  * The RadialDot class is a DisplayObject that is a circle shape with a gradient 

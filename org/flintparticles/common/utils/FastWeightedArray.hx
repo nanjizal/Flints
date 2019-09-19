@@ -30,7 +30,7 @@
 
 package org.flintparticles.common.utils;
 
-import flash.Vector;
+import openfl.Vector;
 import org.flintparticles.common.utils.FastWeightedArray;
 
 /**

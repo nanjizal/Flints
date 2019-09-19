@@ -35,7 +35,7 @@ import org.flintparticles.threed.actions.Move;
 import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.initializers.Velocity;
 import org.flintparticles.threed.zones.DiscZone;
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 
 class Fountain extends Emitter3D
 {

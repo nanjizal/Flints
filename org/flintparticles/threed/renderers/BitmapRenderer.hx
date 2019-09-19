@@ -30,18 +30,18 @@
 
 package org.flintparticles.threed.renderers;
 
-import flash.display.Bitmap;
-import flash.display.BitmapData;
-import flash.display.BlendMode;
-import flash.display.DisplayObject;
-import flash.display.PixelSnapping;
-import flash.filters.BitmapFilter;
-import flash.geom.Matrix;
-import flash.geom.Matrix3D;
-import flash.geom.Point;
-import flash.geom.Rectangle;
-import flash.geom.Vector3D;
-import flash.Vector;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.BlendMode;
+import openfl.display.DisplayObject;
+import openfl.display.PixelSnapping;
+import openfl.filters.BitmapFilter;
+import openfl.geom.Matrix;
+import openfl.geom.Matrix3D;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.geom.Vector3D;
+import openfl.Vector;
 import org.flintparticles.common.renderers.SpriteRendererBase;
 import org.flintparticles.threed.geom.Quaternion;
 import org.flintparticles.threed.particles.Particle3D;

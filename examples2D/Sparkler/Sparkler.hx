@@ -38,8 +38,8 @@ import org.flintparticles.twod.activities.FollowMouse;
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.DiscZone;
-import flash.display.DisplayObject;
-import flash.geom.Point;
+import openfl.display.DisplayObject;
+import openfl.geom.Point;
 
 class Sparkler extends Emitter2D
 {

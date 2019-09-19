@@ -31,7 +31,7 @@
 package org.flintparticles.common.initializers;
 
 import jota.utils.ArrayUtils;
-import flash.Vector;
+import openfl.Vector;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.initializers.Initializer;

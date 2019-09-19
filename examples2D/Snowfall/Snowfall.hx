@@ -39,7 +39,7 @@ import org.flintparticles.twod.initializers.Velocity;
 import org.flintparticles.twod.zones.LineZone;
 import org.flintparticles.twod.zones.PointZone;
 import org.flintparticles.twod.zones.RectangleZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 class Snowfall extends Emitter2D
 {

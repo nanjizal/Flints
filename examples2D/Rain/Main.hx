@@ -28,9 +28,9 @@
  */
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.renderers.PixelRenderer;
-import flash.display.Bitmap;
-import flash.display.Sprite;
-import flash.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.Sprite;
+import openfl.geom.Rectangle;
 
 @:meta(SWF(width="600",height="400",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

@@ -42,7 +42,7 @@ import org.flintparticles.twod.zones.DiscZone;
 import org.flintparticles.twod.zones.LineZone;
 import org.flintparticles.twod.zones.PointZone;
 import org.flintparticles.twod.zones.RectangleZone;
-import flash.geom.Point;
+import openfl.geom.Point;
 
 /**
  * @author Richard Lord

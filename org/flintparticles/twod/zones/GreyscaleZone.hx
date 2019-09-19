@@ -30,8 +30,8 @@
 
 package org.flintparticles.twod.zones;
 
-import flash.display.BitmapData;
-import flash.geom.Point;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
 import org.flintparticles.common.utils.FastWeightedArray;
 import org.flintparticles.twod.particles.Particle2D;
 

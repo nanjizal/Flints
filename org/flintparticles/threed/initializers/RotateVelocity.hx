@@ -30,7 +30,7 @@
 
 package org.flintparticles.threed.initializers;
 
-import flash.geom.Vector3D;
+import openfl.geom.Vector3D;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.initializers.InitializerBase;

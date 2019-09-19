@@ -30,9 +30,9 @@
 
 package org.flintparticles.threed.renderers.controllers;
 
-import flash.display.DisplayObject;
-import flash.events.KeyboardEvent;
-import flash.ui.Keyboard;
+import openfl.display.DisplayObject;
+import openfl.events.KeyboardEvent;
+import openfl.ui.Keyboard;
 import org.flintparticles.common.events.UpdateEvent;
 import org.flintparticles.common.utils.FrameUpdater;
 import org.flintparticles.threed.renderers.Camera;

@@ -30,11 +30,11 @@ import org.flintparticles.common.events.ParticleEvent;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.twod.emitters.Emitter2D;
 import org.flintparticles.twod.renderers.PixelRenderer;
-import flash.display.Sprite;
-import flash.filters.BlurFilter;
-import flash.filters.ColorMatrixFilter;
-import flash.geom.Rectangle;
-import flash.Vector;
+import openfl.display.Sprite;
+import openfl.filters.BlurFilter;
+import openfl.filters.ColorMatrixFilter;
+import openfl.geom.Rectangle;
+import openfl.Vector;
 
 @:meta(SWF(width="400",height="200",frameRate="60",backgroundColor="#000000"))
 class Main extends Sprite

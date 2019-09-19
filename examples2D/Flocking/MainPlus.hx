@@ -27,8 +27,8 @@
  * THE SOFTWARE.
  */
 import org.flintparticles.common.debug.Stats;
-import flash.events.Event;
-import flash.Lib;
+import openfl.events.Event;
+import openfl.Lib;
 
 @:meta(SWF(width="700",height="500",frameRate="60",backgroundColor="#CCCCCC"))
 class MainPlus extends Main

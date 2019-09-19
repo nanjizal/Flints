@@ -29,8 +29,8 @@
 import org.flintparticles.threed.emitters.Emitter3D;
 import org.flintparticles.threed.renderers.DisplayObjectRenderer;
 import org.flintparticles.threed.renderers.controllers.FirstPersonCamera;
-import flash.display.Sprite;
-import flash.geom.Vector3D;
+import openfl.display.Sprite;
+import openfl.geom.Vector3D;
 
 @:meta(SWF(width="700",height="500",frameRate="60",backgroundColor="#CCCCCC"))
 class Main extends Sprite

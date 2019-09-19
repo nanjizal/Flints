@@ -30,10 +30,10 @@
 
 package org.flintparticles.threed.renderers;
 
-import flash.errors.Error;
-import flash.geom.Matrix3D;
-import flash.geom.Vector3D;
-import flash.Vector;
+import openfl.errors.Error;
+import openfl.geom.Matrix3D;
+import openfl.geom.Vector3D;
+import openfl.Vector;
 import org.flintparticles.threed.geom.Matrix3DUtils;
 import org.flintparticles.threed.geom.Vector3DUtils;
 import org.flintparticles.threed.renderers.controllers.CameraController;

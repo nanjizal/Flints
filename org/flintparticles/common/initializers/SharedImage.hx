@@ -30,7 +30,7 @@
 
 package org.flintparticles.common.initializers;
 
-import flash.display.DisplayObject;
+import openfl.display.DisplayObject;
 import org.flintparticles.common.particles.Particle;
 import org.flintparticles.common.emitters.Emitter;
 import org.flintparticles.common.initializers.SharedImage;

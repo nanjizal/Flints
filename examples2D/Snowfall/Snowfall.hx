@@ -26,19 +26,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.Steady;
-import org.flintparticles.common.displayobjects.RadialDot;
-import org.flintparticles.common.initializers.ImageClass;
-import org.flintparticles.common.initializers.ScaleImageInit;
-import org.flintparticles.twod.actions.DeathZone;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.RandomDrift;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.LineZone;
-import org.flintparticles.twod.zones.PointZone;
-import org.flintparticles.twod.zones.RectangleZone;
+import flints.common.counters.Steady;
+import flints.common.displayobjects.RadialDot;
+import flints.common.initializers.ImageClass;
+import flints.common.initializers.ScaleImageInit;
+import flints.twod.actions.DeathZone;
+import flints.twod.actions.Move;
+import flints.twod.actions.RandomDrift;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.LineZone;
+import flints.twod.zones.PointZone;
+import flints.twod.zones.RectangleZone;
 import openfl.geom.Point;
 
 class Snowfall extends Emitter2D

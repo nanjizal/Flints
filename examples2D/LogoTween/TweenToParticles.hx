@@ -26,12 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.actions.Age;
-import org.flintparticles.common.easing.Quadratic;
-import org.flintparticles.common.initializers.Lifetime;
-import org.flintparticles.twod.actions.TweenToZone;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.zones.BitmapDataZone;
+import flints.common.actions.Age;
+import flints.common.easing.Quadratic;
+import flints.common.initializers.Lifetime;
+import flints.twod.actions.TweenToZone;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.zones.BitmapDataZone;
 
 class TweenToParticles extends Emitter2D
 {

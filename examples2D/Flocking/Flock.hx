@@ -26,20 +26,20 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.Blast;
-import org.flintparticles.common.initializers.ImageClass;
-import org.flintparticles.twod.actions.ApproachNeighbours;
-import org.flintparticles.twod.actions.BoundingBox;
-import org.flintparticles.twod.actions.MatchVelocity;
-import org.flintparticles.twod.actions.MinimumDistance;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.RotateToDirection;
-import org.flintparticles.twod.actions.SpeedLimit;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscZone;
-import org.flintparticles.twod.zones.RectangleZone;
+import flints.common.counters.Blast;
+import flints.common.initializers.ImageClass;
+import flints.twod.actions.ApproachNeighbours;
+import flints.twod.actions.BoundingBox;
+import flints.twod.actions.MatchVelocity;
+import flints.twod.actions.MinimumDistance;
+import flints.twod.actions.Move;
+import flints.twod.actions.RotateToDirection;
+import flints.twod.actions.SpeedLimit;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscZone;
+import flints.twod.zones.RectangleZone;
 import openfl.geom.Point;
 
 class Flock extends Emitter2D

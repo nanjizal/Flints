@@ -26,18 +26,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.actions.Age;
-import org.flintparticles.common.actions.ScaleImage;
-import org.flintparticles.common.counters.Blast;
-import org.flintparticles.common.initializers.ColorInit;
-import org.flintparticles.common.initializers.Lifetime;
-import org.flintparticles.twod.actions.Accelerate;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscSectorZone;
-import org.flintparticles.twod.zones.DiscZone;
+import flints.common.actions.Age;
+import flints.common.actions.ScaleImage;
+import flints.common.counters.Blast;
+import flints.common.initializers.ColorInit;
+import flints.common.initializers.Lifetime;
+import flints.twod.actions.Accelerate;
+import flints.twod.actions.Move;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscSectorZone;
+import flints.twod.zones.DiscZone;
 import openfl.geom.Point;
 
 class Grass extends Emitter2D

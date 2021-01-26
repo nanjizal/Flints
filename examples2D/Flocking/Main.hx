@@ -26,8 +26,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.renderers.DisplayObjectRenderer;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.renderers.DisplayObjectRenderer;
 import openfl.display.Sprite;
 
 @:meta(SWF(width="700",height="500",frameRate="60",backgroundColor="#CCCCCC"))

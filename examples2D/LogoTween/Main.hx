@@ -26,10 +26,10 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.events.ParticleEvent;
-import org.flintparticles.common.particles.Particle;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.renderers.PixelRenderer;
+import flints.common.events.ParticleEvent;
+import flints.common.particles.Particle;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.renderers.PixelRenderer;
 import openfl.display.Sprite;
 import openfl.filters.BlurFilter;
 import openfl.filters.ColorMatrixFilter;

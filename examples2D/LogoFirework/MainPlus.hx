@@ -26,7 +26,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.debug.Stats;
+import flints.common.debug.Stats;
 import openfl.events.Event;
 import openfl.Lib;
 

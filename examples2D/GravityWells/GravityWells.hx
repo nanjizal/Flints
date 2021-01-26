@@ -26,13 +26,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.Blast;
-import org.flintparticles.common.initializers.ColorInit;
-import org.flintparticles.twod.actions.GravityWell;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.zones.DiscZone;
+import flints.common.counters.Blast;
+import flints.common.initializers.ColorInit;
+import flints.twod.actions.GravityWell;
+import flints.twod.actions.Move;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.zones.DiscZone;
 import openfl.geom.Point;
 
 class GravityWells extends Emitter2D

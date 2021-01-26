@@ -26,19 +26,19 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.Steady;
-import org.flintparticles.common.initializers.AlphaInit;
-import org.flintparticles.twod.actions.Accelerate;
-import org.flintparticles.twod.actions.CollisionZone;
-import org.flintparticles.twod.actions.DeathZone;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.SpeedLimit;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscZone;
-import org.flintparticles.twod.zones.LineZone;
-import org.flintparticles.twod.zones.RectangleZone;
+import flints.common.counters.Steady;
+import flints.common.initializers.AlphaInit;
+import flints.twod.actions.Accelerate;
+import flints.twod.actions.CollisionZone;
+import flints.twod.actions.DeathZone;
+import flints.twod.actions.Move;
+import flints.twod.actions.SpeedLimit;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscZone;
+import flints.twod.zones.LineZone;
+import flints.twod.zones.RectangleZone;
 import openfl.geom.Point;
 
 class Rain extends Emitter2D

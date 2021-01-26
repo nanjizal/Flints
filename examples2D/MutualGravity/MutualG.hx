@@ -26,17 +26,17 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.Blast;
-import org.flintparticles.common.displayobjects.Dot;
-import org.flintparticles.common.initializers.ColorInit;
-import org.flintparticles.common.initializers.SharedImage;
-import org.flintparticles.twod.actions.BoundingBox;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.MutualGravity;
-import org.flintparticles.twod.actions.SpeedLimit;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.zones.RectangleZone;
+import flints.common.counters.Blast;
+import flints.common.displayobjects.Dot;
+import flints.common.initializers.ColorInit;
+import flints.common.initializers.SharedImage;
+import flints.twod.actions.BoundingBox;
+import flints.twod.actions.Move;
+import flints.twod.actions.MutualGravity;
+import flints.twod.actions.SpeedLimit;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.zones.RectangleZone;
 
 class MutualG extends Emitter2D
 {

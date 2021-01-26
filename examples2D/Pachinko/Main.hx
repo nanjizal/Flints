@@ -26,8 +26,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.events.EmitterEvent;
-import org.flintparticles.twod.renderers.BitmapRenderer;
+import flints.common.events.EmitterEvent;
+import flints.twod.renderers.BitmapRenderer;
 import openfl.display.Sprite;
 import openfl.events.Event;
 import openfl.events.MouseEvent;

@@ -26,18 +26,18 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.actions.Age;
-import org.flintparticles.common.counters.Steady;
-import org.flintparticles.common.displayobjects.Line;
-import org.flintparticles.common.initializers.ColorInit;
-import org.flintparticles.common.initializers.Lifetime;
-import org.flintparticles.common.initializers.SharedImage;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.RotateToDirection;
-import org.flintparticles.twod.activities.FollowMouse;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscZone;
+import flints.common.actions.Age;
+import flints.common.counters.Steady;
+import flints.common.displayobjects.Line;
+import flints.common.initializers.ColorInit;
+import flints.common.initializers.Lifetime;
+import flints.common.initializers.SharedImage;
+import flints.twod.actions.Move;
+import flints.twod.actions.RotateToDirection;
+import flints.twod.activities.FollowMouse;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscZone;
 import openfl.display.DisplayObject;
 import openfl.geom.Point;
 

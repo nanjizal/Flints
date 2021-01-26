@@ -26,8 +26,8 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.renderers.BitmapLineRenderer;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.renderers.BitmapLineRenderer;
 import openfl.display.Sprite;
 import openfl.geom.Rectangle;
 

@@ -26,22 +26,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.actions.Age;
-import org.flintparticles.common.actions.ColorChange;
-import org.flintparticles.common.actions.ScaleImage;
-import org.flintparticles.common.counters.Steady;
-import org.flintparticles.common.easing.TwoWay;
-import org.flintparticles.common.initializers.ImageClass;
-import org.flintparticles.common.initializers.Lifetime;
-import org.flintparticles.twod.actions.Accelerate;
-import org.flintparticles.twod.actions.LinearDrag;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.RotateToDirection;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.BitmapDataZone;
-import org.flintparticles.twod.zones.DiscSectorZone;
+import flints.common.actions.Age;
+import flints.common.actions.ColorChange;
+import flints.common.actions.ScaleImage;
+import flints.common.counters.Steady;
+import flints.common.easing.TwoWay;
+import flints.common.initializers.ImageClass;
+import flints.common.initializers.Lifetime;
+import flints.twod.actions.Accelerate;
+import flints.twod.actions.LinearDrag;
+import flints.twod.actions.Move;
+import flints.twod.actions.RotateToDirection;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.BitmapDataZone;
+import flints.twod.zones.DiscSectorZone;
 import openfl.display.BitmapData;
 import openfl.geom.Point;
 

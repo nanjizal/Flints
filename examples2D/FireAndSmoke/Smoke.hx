@@ -1,44 +1,16 @@
-/*
- * FLINT PARTICLE SYSTEM
- * .....................
- * 
- * Author: Richard Lord
- * Copyright (c) Richard Lord 2008-2011
- * http://flintparticles.org/
- * 
- * Licence Agreement
- * 
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- * 
- * The above copyright notice and this permission notice shall be included in
- * all copies or substantial portions of the Software.
- * 
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
- * THE SOFTWARE.
- */
-import org.flintparticles.common.actions.Age;
-import org.flintparticles.common.actions.Fade;
-import org.flintparticles.common.actions.ScaleImage;
-import org.flintparticles.common.counters.Steady;
-import org.flintparticles.common.displayobjects.RadialDot;
-import org.flintparticles.common.initializers.Lifetime;
-import org.flintparticles.common.initializers.SharedImage;
-import org.flintparticles.twod.actions.LinearDrag;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.actions.RandomDrift;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscSectorZone;
+import flints.common.actions.Age;
+import flints.common.actions.Fade;
+import flints.common.actions.ScaleImage;
+import flints.common.counters.Steady;
+import flints.common.displayobjects.RadialDot;
+import flints.common.initializers.Lifetime;
+import flints.common.initializers.SharedImage;
+import flints.twod.actions.LinearDrag;
+import flints.twod.actions.Move;
+import flints.twod.actions.RandomDrift;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscSectorZone;
 import openfl.geom.Point;
 
 class Smoke extends Emitter2D

@@ -26,22 +26,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
-import org.flintparticles.common.counters.TimePeriod;
-import org.flintparticles.common.displayobjects.Dot;
-import org.flintparticles.common.initializers.CollisionRadiusInit;
-import org.flintparticles.common.initializers.SharedImage;
-import org.flintparticles.twod.actions.Accelerate;
-import org.flintparticles.twod.actions.Collide;
-import org.flintparticles.twod.actions.CollisionZone;
-import org.flintparticles.twod.actions.DeathZone;
-import org.flintparticles.twod.actions.Move;
-import org.flintparticles.twod.emitters.Emitter2D;
-import org.flintparticles.twod.initializers.Position;
-import org.flintparticles.twod.initializers.Velocity;
-import org.flintparticles.twod.zones.DiscZone;
-import org.flintparticles.twod.zones.LineZone;
-import org.flintparticles.twod.zones.PointZone;
-import org.flintparticles.twod.zones.RectangleZone;
+import flints.common.counters.TimePeriod;
+import flints.common.displayobjects.Dot;
+import flints.common.initializers.CollisionRadiusInit;
+import flints.common.initializers.SharedImage;
+import flints.twod.actions.Accelerate;
+import flints.twod.actions.Collide;
+import flints.twod.actions.CollisionZone;
+import flints.twod.actions.DeathZone;
+import flints.twod.actions.Move;
+import flints.twod.emitters.Emitter2D;
+import flints.twod.initializers.Position;
+import flints.twod.initializers.Velocity;
+import flints.twod.zones.DiscZone;
+import flints.twod.zones.LineZone;
+import flints.twod.zones.PointZone;
+import flints.twod.zones.RectangleZone;
 import openfl.geom.Point;
 
 /**

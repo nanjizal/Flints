@@ -1,14 +1,14 @@
 {
-  "name": "flinthx",
-  "url": "https://github.com/miriti/flinthx",
+  "name": "flints",
+  "url": "http://github.com/nanjizal/Flints",
   "license": "MIT",
   "tags": [],
-  "description": "Haxe port of flint particle system",
-  "version": "1.0.0",
+  "description": "Haxe port of flint particle system, removed flash/openfl dependancy",
+  "version": "0.0.1",
   "classPath": ".",
   "releasenote": "",
-  "contributors": ["miriti"],
+  "contributors": ["nanjizal"],
   "dependencies": {
-    "openfl": ""
+]]
   }
 }
